@@ -28,7 +28,7 @@ export default function SearchForm({ params, onParamChange }) {
         <Form.Group as={Col}>
           <Form.Label>Lowest Price</Form.Label>
           <Form.Control
-            placeholder="eg. 49.99"
+            placeholder="eg. 5.99"
             onChange={onParamChange}
             value={params.lowerPrice}
             name="lowerPrice"
