@@ -30,7 +30,9 @@ function App() {
   return (
     <Container>
       <h1>Seach Steam Sales</h1>
-      <h5>Powered by CheapShark API</h5>
+      <h5>
+        Powered by <a href="https://apidocs.cheapshark.com/">CheapShark API</a>
+      </h5>
       <SearchForm params={params} onParamChange={handleParamChange} />
       <Pagination page={page} setPage={setPage} hasNextPage={hasNextPage} />
       {loading && <Spinner animation="border" variant="primary" />}
